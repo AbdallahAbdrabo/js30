@@ -1,0 +1,30 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color:#c4dcec;
+    font-size: 30px;
+    
+}
+:root{
+    --base : #f9b42d;
+    --blur : 0px;
+    --space : 10px;
+}
+p{
+    font-size: 50px;
+}
+p span{
+    color: var(--base);
+}
+img{
+    width: 500px;
+    height: 500px;
+    padding: var(--space);
+    background-color:var(--base) ;
+    filter: blur(var(--blur));
+    border-radius: 10px;
+}

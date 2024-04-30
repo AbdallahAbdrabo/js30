@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video player</title>
+    <link rel="stylesheet" href="videoplayer.css">
+    <link rel="icon" href="https://fav.farm/🔥">
+</head>
+<body>
+    <div class="player">
+        <video src="video.mp4" class="video" ></video>
+        <div class="player-control">
+            <div class="progres">
+                <div class="progres-filled"></div>
+            </div>
+            <button class="player-button toggle "  >►</button>
+            <input type="range" class="player-slider volumer" name="volume" min="0" max="1" step="0.05" value="1" data-value="volume">
+            <div class="value volume">1</div>
+            <input type="range" class="player-slider" name="playbackRate" min="0.5" max="2" step="0.1" value="1" data-value="playbackRate">
+            <div class="value playbackRate">1</div>
+            <button class="player-button" data-skip="-10">
+                <<10s
+            </button>
+            <button class="player-button"data-skip="25">
+                >>25s</button>
+        </div>
+
+    </div>
+    
+<script src="videoplayer.js"></script>
+</body>
+</html>

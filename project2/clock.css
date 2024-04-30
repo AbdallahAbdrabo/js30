@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdc3c7  ;
+}
+.circle{
+    width: 50vh;
+    height: 50vh;
+    border: 2vh solid #6c7a8922 ;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    
+
+}
+.arow{
+    width: 23vh;
+    background-color: black;
+    height: 5px;
+    position: absolute;
+    top: 49%;
+    
+  
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    
+
+}
+.arow-head{
+    width: 10px;
+    height: 4px;
+    position: absolute;
+    background-color: black;
+    transform: rotate(30deg);
+    transform-origin: 0;
+}
+.arow-head1{
+    transform-origin: 0;
+    transform: rotate(30deg);
+}
+.arow-head2{
+    transform-origin: 0;
+    transform: rotate(-30deg);
+}
+
